@@ -1,0 +1,114 @@
+/* Import Google Font */
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+/* Root Variables */
+:root {
+  --font-outfit: "Outfit", sans-serif;
+
+  --breakpoint-2xsm: 375px;
+  --breakpoint-xsm: 425px;
+  --breakpoint-sm: 640px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 1024px;
+  --breakpoint-xl: 1280px;
+  --breakpoint-2xl: 1536px;
+  --breakpoint-3xl: 2000px;
+
+  --color-white: #ffffff;
+  --color-black: #101828;
+  --color-gray-100: #f2f4f7;
+  --color-gray-500: #667085;
+  --color-gray-700: #344054;
+  --color-brand-500: #465fff;
+  --color-orange-500: #fb6514;
+  --color-success-500: #12b76a;
+  --color-error-500: #f04438;
+  --color-warning-500: #f79009;
+  --shadow-md: 0px 4px 8px rgba(16, 24, 40, 0.1);
+}
+
+/* Global Styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+body {
+  font-family: var(--font-outfit);
+  background-color: var(--color-gray-100);
+}
+
+button {
+  cursor: pointer;
+}
+
+/* Menu Item Styles */
+.menu-item {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 12px;
+  padding: 8px 12px;
+  font-weight: 500;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.menu-item.active {
+  background-color: var(--color-brand-500);
+  color: var(--color-white);
+}
+
+.menu-item.inactive {
+  color: var(--color-gray-700);
+}
+
+.menu-item:hover {
+  background-color: var(--color-gray-100);
+}
+
+/* Scrollbar */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: var(--color-gray-500);
+  border-radius: 12px;
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: var(--color-brand-500);
+  color: var(--color-white);
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.btn-primary:hover {
+  background-color: var(--color-orange-500);
+}
+
+/* Utility Classes */
+.text-success {
+  color: var(--color-success-500);
+}
+
+.text-error {
+  color: var(--color-error-500);
+}
+
+.text-warning {
+  color: var(--color-warning-500);
+}
+
+.shadow-md {
+  box-shadow: var(--shadow-md);
+}

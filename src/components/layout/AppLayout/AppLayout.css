@@ -1,0 +1,43 @@
+.layout-container {
+    min-height: 100vh;
+    display: flex;
+  }
+  
+  .layout-content {
+    flex: 1;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .expanded {
+    margin-left: 290px; /* Khi sidebar mở rộng */
+  }
+  
+  .collapsed {
+    margin-left: 90px; /* Khi sidebar thu nhỏ */
+  }
+  
+  .mobile-open {
+    margin-left: 0;
+  }
+  
+  .content-wrapper {
+    padding: 1rem;
+    max-width: var(--breakpoint-2xl);
+    margin: 0 auto;
+  }
+  
+  @media (min-width: 768px) {
+    .content-wrapper {
+      padding: 1.5rem;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .collapsed {
+      margin-left: 0px; 
+    }
+    .content-wrapper {
+      padding: 0rem;
+    }
+  }
+  

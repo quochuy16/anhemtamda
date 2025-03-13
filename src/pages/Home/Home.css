@@ -1,0 +1,23 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 16px; /* md:gap-6 */
+    padding: 16px;
+  }
+  
+  .recent-orders {
+    grid-column: span 12;
+  }
+  
+  @media (min-width: 768px) {
+    .container {
+      gap: 24px; /* md:gap-6 */
+    }
+  }
+  
+  @media (min-width: 1280px) {
+    .recent-orders {
+      grid-column: span 12;
+    }
+  }
+  

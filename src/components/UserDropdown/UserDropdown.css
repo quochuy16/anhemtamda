@@ -1,0 +1,28 @@
+.user-dropdown-toggle {
+    display: flex;
+    align-items: center;
+    color: #4a5568; /* text-gray-700 */
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .user-dropdown-toggle.dark {
+    color: #a0aec0; /* dark:text-gray-400 */
+  }
+  
+  .user-dropdown-text {
+    margin-right: 4px;
+    font-weight: 500;
+    font-size: 0.875rem; /* text-theme-sm */
+  }
+
+  
+@media screen and (max-width: 768px) {
+    .user-dropdown-text {
+        margin-right: 4px;
+        font-weight: 700;
+        font-size: 1rem; /* text-theme-sm */
+      }
+  }
+  

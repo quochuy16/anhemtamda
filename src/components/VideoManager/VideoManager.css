@@ -1,0 +1,136 @@
+.video-manager {
+    padding: 16px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .video-manager-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+  }
+  
+  .video-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .video-actions {
+    display: flex;
+    gap: 8px;
+  }
+  
+  .btn-add,
+  .btn-delete-all {
+    padding: 8px;
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .btn-add {
+    background: #16a34a;
+  }
+  
+  .btn-add:hover {
+    background: #15803d;
+  }
+  
+  .btn-delete-all {
+    background: #dc2626;
+  }
+  
+  .btn-delete-all:hover {
+    background: #b91c1c;
+  }
+  
+  .loading-text {
+    color: gray;
+  }
+  
+  .error-text {
+    color: red;
+  }
+  
+  .video-icon {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+  }
+  
+  .video-link {
+    color: blue;
+    text-decoration: underline;
+  }
+  
+  .btn-delete {
+    color: red;
+    cursor: pointer;
+  }
+  
+  .popup-overlay {
+    position: fixed;
+    z-index: 101;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.6);
+  }
+  
+  .popup-content {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 320px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .popup-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 12px;
+  }
+  
+  .popup-close {
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .popup-input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    margin-bottom: 12px;
+  }
+  
+  .popup-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 8px;
+  }
+  
+  .btn-cancel,
+  .btn-save {
+    padding: 8px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .btn-cancel {
+    background: #ddd;
+  }
+  
+  .btn-save {
+    background: #3b82f6;
+    color: white;
+  }
+  
+  .btn-save:hover {
+    background: #2563eb;
+  }
+  

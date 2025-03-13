@@ -1,0 +1,53 @@
+.theme-toggle-button {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    background-color: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 50%;
+    color: #6b7280;
+    transition: all 0.3s ease-in-out;
+  }
+
+  @media screen and (max-width: 768px) {
+    .theme-toggle-button {
+        width: 0px;
+        height: 0px;
+    }
+  }
+  
+  .theme-toggle-button:hover {
+    background-color: #f3f4f6;
+    color: #374151;
+  }
+  
+  .dark .theme-toggle-button {
+    background-color: #1f2937;
+    border-color: #374151;
+    color: #9ca3af;
+  }
+  
+  .dark .theme-toggle-button:hover {
+    background-color: #374151;
+    color: white;
+  }
+  
+  .icon-dark {
+    display: none;
+  }
+  
+  .dark .icon-dark {
+    display: block;
+  }
+  
+  .icon-light {
+    display: block;
+  }
+  
+  .dark .icon-light {
+    display: none;
+  }
+  

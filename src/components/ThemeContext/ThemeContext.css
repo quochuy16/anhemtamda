@@ -1,0 +1,17 @@
+/* theme.css */
+.app {
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  }
+  
+  /* Theme Light */
+  .app.light {
+    background-color: white;
+    color: black;
+  }
+  
+  /* Theme Dark */
+  .app.dark {
+    background-color: black;
+    color: white;
+  }
+  

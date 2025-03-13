@@ -1,0 +1,16 @@
+.admin-container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 16px; /* Khoảng cách giữa các cột */
+  }
+  
+  @media (min-width: 768px) {
+    .admin-container {
+      gap: 24px; /* Tăng khoảng cách trên màn hình lớn hơn */
+    }
+  }
+  
+  .admin-content {
+    grid-column: span 12;
+  }
+  

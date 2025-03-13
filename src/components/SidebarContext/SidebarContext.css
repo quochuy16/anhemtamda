@@ -1,0 +1,26 @@
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    background-color: #fff;
+    transition: width 0.3s ease-in-out;
+    border-right: 1px solid #ddd;
+  }
+  
+  .sidebar.expanded {
+    width: 290px;
+  }
+  
+  .sidebar.collapsed {
+    width: 90px;
+  }
+  
+  .sidebar.mobile {
+    transform: translateX(-100%);
+  }
+  
+  .sidebar.mobile.open {
+    transform: translateX(0);
+  }
+  

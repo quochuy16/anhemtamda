@@ -1,0 +1,36 @@
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+  }
+  
+  .table-header {
+    background-color: #f4f4f4;
+  }
+  
+  .table-body {
+    background-color: white;
+  }
+  
+  .table-row {
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .table-cell {
+    padding: 12px;
+    text-align: left;
+  }
+  
+  .table-cell th {
+    font-weight: bold;
+    background-color: #f8f8f8;
+  }
+  
+  .table-row:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .table-row:hover {
+    background-color: #f1f1f1;
+  }
+  

@@ -1,0 +1,12 @@
+/* PageMeta.css */
+body {
+    background-color: var(--theme-bg, white);
+    color: var(--theme-text, black);
+  }
+  
+  /* Ví dụ thay đổi màu khi có class `dark-mode` */
+  .dark-mode {
+    --theme-bg: black;
+    --theme-text: white;
+  }
+  

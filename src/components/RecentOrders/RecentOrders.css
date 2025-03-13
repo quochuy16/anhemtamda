@@ -1,0 +1,93 @@
+.recent-orders {
+    background: #fff;
+    border-radius: 12px;
+    border: 1px solid #ddd;
+    padding: 20px;
+    max-width: 100%;
+    overflow-x: auto;
+  }
+  
+  .title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  .loading-text,
+  .error-text {
+    font-size: 16px;
+    text-align: center;
+    color: #888;
+  }
+  
+  .error-text {
+    color: red;
+  }
+  
+  .table-container {
+    max-width: 100%;
+    overflow-x: auto;
+  }
+  
+  .video-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .video-table th,
+  .video-table td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .video-table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+  }
+  
+  .video-table tr:hover {
+    background-color: #f9f9f9;
+  }
+  
+  .video-icon {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .video-link {
+    /* color: #007bff; */
+    text-decoration: underline;
+    font-weight: medium;
+  }
+  
+  .video-link:hover {
+    color: #0056b3;
+  }
+  
+  /* Dark Theme */
+  .recent-orders.dark {
+    background: #1a1a1a;
+    border-color: #333;
+  }
+  
+  .recent-orders.dark .title {
+    color: #fff;
+  }
+  
+  .recent-orders.dark .video-table th,
+  .recent-orders.dark .video-table td {
+    color: #ccc;
+  }
+  
+  .recent-orders.dark .video-link {
+    color: #4aa3ff;
+  }
+  
+  .recent-orders.dark .video-link:hover {
+    color: #1e90ff;
+  }
+  
